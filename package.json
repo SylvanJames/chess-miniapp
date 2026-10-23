@@ -1,0 +1,16 @@
+{
+  "name": "chess-miniapp",
+  "version": "1.0.0",
+  "description": "国际象棋双人对战 · 实时语音聊天",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js && node e2e.js && node voice-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["chess", "webrtc", "websocket", "voice"],
+  "license": "MIT"
+}
